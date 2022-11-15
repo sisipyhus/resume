@@ -1,8 +1,10 @@
 version: "2"
 services:
-  resume:
-    build: .
-    ports:
-      - 3000:80
-    volumes:
-      - ./public:/usr/share/nginx/html
+  node-app:
+    build:
+      context: .
+      dockerfile: node.Dockerfile
+
+  nginx-app:
+    build:
+      dockerfile: Dockerfile
