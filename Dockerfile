@@ -4,7 +4,7 @@ WORKDIR /code
 
 COPY . /code
 
-RUN npm config set registry https://registry.npmmirror.com && npm i puppeteer&&npm install && npm build
+RUN npm config set registry https://registry.npmmirror.com && npm i puppeteer && npm install && npm run build
 
 FROM nginx:alpine
 
