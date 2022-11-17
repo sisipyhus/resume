@@ -4,7 +4,7 @@ WORKDIR /code
 
 COPY . /code
 
-RUN npm config set puppeteer_download_host=https://npm.taobao.org/mirrors && npm i puppeteer&&npm install && npm build
+RUN npm config set https://npm.taobao.org/mirrors && npm i puppeteer&&npm install && npm build
 
 FROM nginx:alpine
 
