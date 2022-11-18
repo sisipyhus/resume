@@ -184,7 +184,6 @@ section {
   dl {
     margin: 10px 0;
   }
-
   dd {
     line-height: 1.2;
     font-size: 14;
@@ -461,7 +460,7 @@ body {
 }
 @media print {
   html,
-body {
+  body {
     background-color: #ffffff;
   }
 }
