@@ -5,7 +5,7 @@ $white: #fff;
   float: left;
   width: 0;
   height: 0;
-  margin-top: -23px;
+  margin-top: -13px;
   margin-left: 15px;
   content: "";
   border: 8px solid $black;
@@ -89,7 +89,6 @@ dd {
 }
 
 .sec-content {
-  margin-bottom: 22px;
   margin-left: 20px;
 }
 
@@ -130,6 +129,11 @@ dd {
   }
   dd {
     margin-left: 27px;
+  }
+  .timeline-wrapper{
+    ul:nth-child(2){
+      padding-top: 1px !important;
+    }
   }
 }
 

@@ -34,15 +34,16 @@ block education
         span.sec-en
           | Education
     .timeline-wrapper
-      ul.sec-content.timeline
+     each val in education.experience
+      ul.sec-content.timeline.eduction
         li.timeline-item.icon-flags
           h3.timeline-title
-            time.education-time= education.time
+            time.education-time= val.time
           dl.education-content
-            dt.education-name= education.name
-            dd.education-major.icon-hat= education.major
-            each val in education.honor
-              dd.education-honor.icon-trophy!= val
+            dt.education-name= val.name
+            dd.education-major.icon-hat= val.major
+            each item in val.honor
+              dd.education-honor.icon-trophy!= item
 
 
 block language              
