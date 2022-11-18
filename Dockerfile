@@ -2,7 +2,7 @@ FROM node:14-alpine AS Builder
 
 WORKDIR /code
 
-COPY ./public /code
+COPY . /code
 
 FROM nginx:alpine
 
