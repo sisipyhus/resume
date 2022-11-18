@@ -60,7 +60,7 @@ pipeline {
                 '''
                 // sh 'docker rmi -f ${REGISTRY}/${ALIYUNNAMESPQCE}:0.1'
                 // sh 'docker pull ${REGISTRY}/${ALIYUNNAMESPQCE}:0.1'
-                sh 'docker run -d -p 3000:80 --name ${IMAGE_NAME}${VERSION_ID} ${IMAGE_NAME}:${VERSION_ID}'
+                sh 'docker run -d -p 3001:80 --name ${IMAGE_NAME}${VERSION_ID} ${IMAGE_NAME}:${VERSION_ID}'
             }
         }
     }
