@@ -1,10 +1,10 @@
-FROM node:11-alpine AS Builder
+FROM node:14-alpine AS Builder
 
 WORKDIR /code
 
 COPY . /code
 
-RUN npm config set registry https://registry.npmmirror.com && npm i puppeteer && npm install && npm run build
+RUN npm config set registry https://registry.npmmirror.com && npm install && npm run build
 
 FROM nginx:alpine
 
