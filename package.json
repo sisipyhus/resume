@@ -10,7 +10,7 @@
     "build": "gulp",
     "now": "gulp pdf && gulp && now",
     "deploy": "gulp pdf && gulp deploy && git add -A && git commit -m 'update resume' && git push origin master",
-    "preinstall": "npx npm-force-resolutions"
+    "upload": "gulp && git add -A && git commit -m 'update resume'  && git push origin master "
   },
   "author": "Lxxyx",
   "license": "MIT",

@@ -2,9 +2,7 @@ FROM node:14-alpine AS Builder
 
 WORKDIR /code
 
-COPY . /code
-
-RUN npm config set registry https://registry.npmmirror.com && npm run preinstall &&npm install && npm run build
+COPY ./public /code
 
 FROM nginx:alpine
 
