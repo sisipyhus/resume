@@ -17,7 +17,7 @@ aside:
 header:
   title:
     name: 雷亮
-    job: 全栈
+    job: 前端
   contacts:
     phone: 1857919068
     mail: leiliang157@gmail.com
@@ -34,13 +34,13 @@ education:
     - time: 2018-2022
       name: 南昌大学
       major: 光电信息与科学（本科）
-      honor:
-        - '二等奖学金'
+      # honor:
+      #   - '二等奖学金'
     - time: 2022-至今
       name: 武汉理工大学
       major: 软件工程（研究生）
-      honor:
-        - '暂无'
+      # honor:
+      #   - '暂无'
 
 language:
   cert:
@@ -77,10 +77,6 @@ skills:
   flags:
     name: Web 前端
     skill:
-      - name: 'HTML/CSS'
-        description:
-          - 能够编写语义化的 HTML，熟悉 CSS 的使用
-          - 不借助框架，能编写`响应式/移动端网页`
       - name: '`ECMAScript`'
         description:
           - '`熟练使用 ESNext 开发项目`，代码编写遵守规范'
@@ -88,15 +84,17 @@ skills:
       - name: 前端工程化实践
         description:
           - 熟练使用 `TypeScript & Compiler & AST`
-          - 深度理解前端工程化，在内部有规模化落地实践
-          - 熟悉 `React/Vue` 框架底层原理
+          - 能够手写最简单的 mini-webpack，实现模块依赖收集，模块加载器实现(注意单例模式)以及包裹函数等
+          - 能够使用Vite 
+      - name: React/Vue2
+        description:
+          - 阅读React源码，了解React的基础架构
+          - 阅读Vue2的源码
+        
 
   cloud:
     name: 后端&运维
     skill:
-      - name: '`Java & Spring系列`'
-        description:
-          - 能够熟练使用SpringBoot和SpringCloud
       - name: '`DevOps`'
         description:
           - 熟悉并能流畅的使用Docker，实现部署流程的自动化
@@ -111,4 +109,4 @@ skills:
           - 熟练使用 Git
       - name: Linux & Vim使用
         description:
-          - 熟练使用诸多Linux指令
+          - 管理个人/公司开发服务器，熟悉 Linux 相关命令，比如免密登录，ssh隧道，软硬链接，文件处理，数据处理及系统管理等命令，以及使用 vim 编辑文件，tmux 管理窗口等 

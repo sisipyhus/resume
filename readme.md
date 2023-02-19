@@ -11,14 +11,6 @@
 2. 全局安装 gulp `npm install -g gulp`
 
 ps: 由于安装 puppeteer 的缘故，此步骤可能涉及代理设置访问
-
-```
-# 代理设置
-git config --global http.proxy 'socks5://127.0.0.1:1080'
-git config --global https.proxy 'socks5://127.0.0.1:1080'
-# 取消代理
-git config --global --unset https.proxy 'socks5://127.0.0.1:1080'
-git config --global --unset http.proxy 'socks5://127.0.0.1:1080'
 ```
 
 #### 推荐使用淘宝 chromium 源安装
