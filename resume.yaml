@@ -34,13 +34,9 @@ education:
     - time: 2018-2022
       name: 南昌大学
       major: 光电信息与科学（本科）
-      # honor:
-      #   - '二等奖学金'
     - time: 2022-至今
       name: 武汉理工大学
-      major: 软件工程（研究生）
-      # honor:
-      #   - '暂无'
+      major: 软件工程（硕士）
 
 language:
   cert:
@@ -77,27 +73,27 @@ skills:
   flags:
     name: Web 前端
     skill:
-      - name: '`ECMAScript`'
+      - name: 'ES6/CSS3'
         description:
-          - '`熟练使用 ESNext 开发项目`，代码编写遵守规范'
-          - 熟悉异步编程，`掌握常见的解决方案及原理`
+          - 熟悉 ES6+，如 Proxy，通过 Proxy 实现高效的 immutable data。
+          - 熟悉 CSS 3，在项目中使用 Grid 部分替代 Flex 进行布局 
       - name: 前端工程化实践
         description:
-          - 熟练使用 `TypeScript & Compiler & AST`
-          - 能够手写最简单的 mini-webpack，实现模块依赖收集，模块加载器实现(注意单例模式)以及包裹函数等
-          - 能够使用Vite 
-      - name: React/Vue2
+          - 能够熟练使用Vite、Webpack、Rollup等打包工具
+          - 阅读 webpack 源码，并了解 commonjs/esm/code-spiliting 经 webpack 打包后的运行时代码(webpack骨架代码)
+      - name: React/Vue3
         description:
-          - 阅读React源码，了解React的基础架构
-          - 阅读Vue2的源码
-        
-
+          - 熟悉React、React Hooks。阅读过React源码，了解React的基础架构
+          - 熟悉 Redux， 在项目中使用 Redux 进行全局数据状态管理
+          - 熟悉Vue3和Composition API
   cloud:
-    name: 后端&运维
+    name: 运维
     skill:
       - name: '`DevOps`'
         description:
-          - 熟悉并能流畅的使用Docker，实现部署流程的自动化
+          - 管理个人服务器环境，了解 linux 常见命令以及 docker/nginx，并通过 docker 镜像与 nginx 配置独立完成前端项目的部署
+          - 通过多阶段构建优化前端 docker 镜像体积，从 2GB 优化到了 30MB，体积减小后，加快了镜像的上传以及下载时间，优化前端部署时间
+          - 熟悉 nginx 在前端的常见配置，结合 webpack 对其带有 hash 的资源配置长期强缓存，优化网站二次打开速度
   gears:
     name: 其它
     skill:
