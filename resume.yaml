@@ -80,11 +80,10 @@ skills:
       - name: 前端工程化实践
         description:
           - 能够熟练使用Vite、Webpack、Rollup等打包工具
-          - 阅读 webpack 源码，并了解 commonjs/esm/code-spiliting 经 webpack 打包后的运行时代码(webpack骨架代码)
+          - 阅读 webpack 源码，并了解 commonjs/esm/code-spiliting 经 webpack 打包后的运行时代码
       - name: React/Vue3
         description:
           - 熟悉React、React Hooks。阅读过React源码，了解React的基础架构
-          - 熟悉 Redux， 在项目中使用 Redux 进行全局数据状态管理
           - 熟悉Vue3和Composition API
   cloud:
     name: 运维
@@ -93,16 +92,9 @@ skills:
         description:
           - 管理个人服务器环境，了解 linux 常见命令以及 docker/nginx，并通过 docker 镜像与 nginx 配置独立完成前端项目的部署
           - 通过多阶段构建优化前端 docker 镜像体积，从 2GB 优化到了 30MB，体积减小后，加快了镜像的上传以及下载时间，优化前端部署时间
-          - 熟悉 nginx 在前端的常见配置，结合 webpack 对其带有 hash 的资源配置长期强缓存，优化网站二次打开速度
   gears:
     name: 其它
     skill:
-      - name: '`计算机基础`'
-        description:
-          - '`对计算机与编程有极大热情，自学能力较强`'
-      - name: 工具使用
-        description:
-          - 熟练使用 Git
       - name: Linux & Vim使用
         description:
           - 管理个人/公司开发服务器，熟悉 Linux 相关命令，比如免密登录，ssh隧道，软硬链接，文件处理，数据处理及系统管理等命令，以及使用 vim 编辑文件，tmux 管理窗口等 
