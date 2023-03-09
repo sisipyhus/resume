@@ -133,7 +133,7 @@ gulp.task('pdf', ['set-pdf-port', 'default', 'webserver'], async () => {
   })
 
   await page.goto('http://localhost:9001')
-  await delay(100)
+  await delay(1000)
 
   await page.pdf({
     path: './src/pdf/resume.pdf',

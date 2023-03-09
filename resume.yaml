@@ -4,7 +4,7 @@ Guide:
   - PDF 会自动生成，文件名可以在 gulp.js 里改
   - PDF 的地址，将这个文件里pdf部分改为你的PDF文件名即可
 
-title: 雷亮 - 全栈工程师
+title: 雷亮 - 前端工程师
 
 aside:
   - href: https://juejin.cn/user/870468942322014
